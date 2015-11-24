@@ -1,4 +1,7 @@
-background(255, 255, 255);
+var mouseMoved = function(){
+background(0, 0, 0);
+fill(255,255,255);
 text("Welcome to Fun With JS", 60, 34);
 text("Feel free to mess around with the circle", 60, 60);
-ellipse(mouseX, mouseY, 50, 90);
+
+ellipse(mouseX, mouseY, 20, 20);};
