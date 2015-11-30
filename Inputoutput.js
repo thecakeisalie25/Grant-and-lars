@@ -7,5 +7,5 @@ else if(name === "Grant"){
 }
 else{
   console.log("I don't know you, sonny! GET OfF MY LAWN")
-  confirm("Get off his lawn?", "Yes", "no");
+  confirm("Get off his lawn?");
 }
