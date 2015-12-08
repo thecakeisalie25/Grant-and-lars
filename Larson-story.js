@@ -1,23 +1,25 @@
 var name = prompt("What is your name, sonny?");
 if (name === "Larson"){
-  console.log("Hello Larson!");
+  alert("Hello Larson!");
 }
 else if(name === "Grant"){
-  console.log("Hello Grant!")
+  alert("Hello Grant!")
 }
 else if (name === "Donnie"){
-  console.log("Hello Donnie!")
+  alert("Hello Donnie!")
 }
 else{
-  console.log("I don't know you, sonny! GET OfF MY LAWN")
+  alert("I don't know you, sonny! GET OfF MY LAWN")
   if (confirm("Get off his lawn?")){
-      console.log("Running as fast as you can!")
+      alert("Running as fast as you can!")
       confirm("Take a break?");
-      console.log("You are so tired it doesn't matter if you want to.")
+      alert("You are so tired it doesn't matter if you want to.")
       for(var i=0;i<5;i+=1){
-          confirm("Resting...");
+          alert("Resting...");
       }
-     var oldManHelped=false
-     console.log("You fall into a deep sleep...");
+     alert("You fall into a deep sleep...");
+     alert("YOU WIN");
   }
+  alert("The old man hits you with a shovel.");
+  alert("GAME OVER");
 }
